@@ -1,4 +1,4 @@
-package Matriser;
+package no.hvl.dat100.matriser;
 
 public class Matriser3 {
     public static int[][] skaler(int tall, int[][] matrise){

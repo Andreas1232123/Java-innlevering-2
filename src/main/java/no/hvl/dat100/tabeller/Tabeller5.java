@@ -1,4 +1,4 @@
-package Tabeller;
+package no.hvl.dat100.tabeller;
 
 public class Tabeller5 {
     public static int posisjonTall(int[] tabell, int tall) {

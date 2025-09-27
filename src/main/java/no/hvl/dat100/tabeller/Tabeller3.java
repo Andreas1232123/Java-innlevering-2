@@ -1,4 +1,4 @@
-package Tabeller;
+package no.hvl.dat100.tabeller;
 
 public class Tabeller3 {
     public static void main(String[] args) {

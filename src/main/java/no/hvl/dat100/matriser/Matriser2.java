@@ -1,4 +1,4 @@
-package Matriser;
+package no.hvl.dat100.matriser;
 
 public class Matriser2 {
     public static String tilStreng(int[][] matrise){

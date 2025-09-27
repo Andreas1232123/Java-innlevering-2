@@ -1,4 +1,4 @@
-package Tabeller;
+package no.hvl.dat100.tabeller;
 
 public class Tabeller6 {
     public static int[] reverser(int[] tabell) {

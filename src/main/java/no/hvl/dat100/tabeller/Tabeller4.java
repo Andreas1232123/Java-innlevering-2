@@ -1,4 +1,4 @@
-package Tabeller;
+package no.hvl.dat100.tabeller;
 
 import java.util.Scanner;
 
@@ -14,6 +14,7 @@ public class Tabeller4 {
         } else {
             System.out.println(tallfins + " finnes IKKE i tabellen.");
         }
+        scanner.close();
     }
     public static boolean finnesTall(int[] tabell, int tall) {
         for (int i = 0; i < tabell.length; i++) {

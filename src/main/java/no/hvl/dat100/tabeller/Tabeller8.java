@@ -1,4 +1,4 @@
-package Tabeller;
+package no.hvl.dat100.tabeller;
 
 public class Tabeller8 {
     public static int[] settSammen(int[] tabell1, int[] tabell2) {
@@ -8,21 +8,17 @@ public class Tabeller8 {
         return Sammen;
     }
 
-    public static void skrivUtArray(int[] array) {
-        System.out.print("[");
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i]);
-            if (i < array.length - 1) {
-                System.out.print(", ");
-            }
-        }
-        System.out.println("]");
-    }
-
     public static void main(String[] args) {
         int[] tallitabell = {8, 16, 24, 32, 40, 48, 56, 64, 72, 80};
         int[] tabell4 = {9, 18, 27, 36, 45, 54, 63, 72, 81, 90};
         int[] kombinert = settSammen(tallitabell, tabell4);
-        skrivUtArray(kombinert);
+        System.out.print("[");
+        for (int i = 0; i < kombinert.length; i++) {
+            System.out.print(kombinert[i]);
+            if (i < kombinert.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println("]");
     }
 }

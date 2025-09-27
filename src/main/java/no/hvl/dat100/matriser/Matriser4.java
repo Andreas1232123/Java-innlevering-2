@@ -1,4 +1,4 @@
-package Matriser;
+package no.hvl.dat100.matriser;
 
 public class Matriser4 {
     public static boolean erLik(int[][] mat1, int[][] mat2){
