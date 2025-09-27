@@ -17,6 +17,11 @@ public class Matriser {
             }
             System.out.println();
         }
+	  	int[][] a = {
+            {1, 2, 4},
+            {4, 5, 6},
+            {7, 8, 9}
+        };
 	  	int[][] b = {
                 {1, 2, 3},
         };
