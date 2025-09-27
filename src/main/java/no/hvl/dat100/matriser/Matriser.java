@@ -62,6 +62,7 @@ public class Matriser {
                 Nymatrise[i][j]=matrise[i][j]*tall;
             }
         }
+		return Nymatrise;
 	}
 
 	// d)
