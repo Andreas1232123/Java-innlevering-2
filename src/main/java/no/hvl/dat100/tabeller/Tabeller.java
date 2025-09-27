@@ -48,7 +48,7 @@ public class Tabeller {
 
 	// b)
 	public static String tilStreng(int[] tabell) {
-            int[] talliB = {42, 67, 89};
+            int[] talliB = {1, 4, 6};
             StringBuilder tall = new StringBuilder();
             tall.append("[");
             for (int i=0;i<talliB.length;i++){
@@ -62,7 +62,7 @@ public class Tabeller {
         }
 	// c)
 	public static int summer(int[] tabell) {
-        int[] tallitabell = {8, 16, 24, 32, 40, 48, 56, 64, 72, 80};
+        int[] tallitabell = {1,4,6};
         int sum = 0;
         for (int i = 0; i < tallitabell.length; i++) {
             sum += tallitabell[i];
